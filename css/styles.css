@@ -14,24 +14,31 @@ html, body {
 
 header {
     text-align: center;
-    /* background-color: #ca2cfb; */
+     background-color: #ca2cfb;
     padding: 20px;
 }
-.hero {
-    background-image: url('../img/jinx-bg.png');
+
+/* .hero {
+     background-image: url('../img/jinx-bg.png'); 
     background-size: cover;
     background-position: center;
     height: 450px;
-    /* color: white;
+     color: white;
     display: flex;
-    align-items: center; */
-    justify-content: center;
-  }
-header img {
-    width: 300;
-    height: 300;
+    align-items: center; 
+     justify-content: center; 
+  } */
+   
+header .pfp {
+    width: 300px;
+    height: 300px;
     border: 20px solid #ffa9dc;
     border-radius: 50%;
+    background-image: url('./../img/jinx-pfp.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header h1 {
