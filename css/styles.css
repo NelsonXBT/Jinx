@@ -14,10 +14,19 @@ html, body {
 
 header {
     text-align: center;
-    background-color: #ca2cfb;
+    /* background-color: #ca2cfb; */
     padding: 20px;
 }
-
+.hero {
+    background-image: url('../img/jinx-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    /* color: white;
+    display: flex;
+    align-items: center; */
+    justify-content: center;
+  }
 header img {
     width: 300;
     height: 300;
