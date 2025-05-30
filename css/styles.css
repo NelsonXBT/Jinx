@@ -18,16 +18,18 @@ header {
     padding: 20px;
 }
 
-/* .hero {
+.hero {
      background-image: url('../img/jinx-bg.png'); 
     background-size: cover;
     background-position: center;
     height: 450px;
+    margin: 0;
+    padding: 0;
      color: white;
-    display: flex;
+    /* /* display: flex;
     align-items: center; 
-     justify-content: center; 
-  } */
+     justify-content: center;  */
+  }  
    
 header .pfp {
     width: 300px;
