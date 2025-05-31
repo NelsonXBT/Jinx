@@ -1,0 +1,145 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+
+body {
+    background-color: #a7a7a7a6;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+p, ul, ol {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+ul, ol{
+    padding: 0;
+    list-style-position: inside;
+}
+
+a {
+    color: #69010f;
+}
+a:hover {
+    color:  #c53347;
+}
+a:active {
+    color:  #c53347;
+}
+
+p.caption {
+    font-size: 16px;
+    color: grey;
+    font-style: oblique;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+     background-color: #ca2cfb;
+    padding: 20px;
+}
+
+.hero {
+     background-image: url('../img/jinx-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+     color: white;
+    /* /* display: flex;
+    align-items: center; 
+     justify-content: center;  */
+  }  
+   
+  .hero2 {
+    background-image: url('../img/silco-bg.jpg'); 
+   background-size: cover;
+   background-position: center;
+   height: 450px;
+    color: white;
+  }
+
+header .pfp {
+    width: 300px;
+    height: 300px;
+    border: 20px solid #ffa9dc;
+    border-radius: 50%;
+    background-image: url('./../img/jinx-pfp.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0% auto;
+    
+}
+header .pfp.silco {
+    border: 20px solid #69010f;
+    border-radius: 50%;
+    background-image: url('./../img/silco-pfp.jpg');
+    background-position: 0 0;
+    background-size: cover;
+}
+
+h1 {
+        font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 80px;
+        margin: 10px 0 20px 0;
+        color: #f7f0f4;
+      
+}
+h2 {
+    font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        margin: 20px 0;
+        
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+main img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #2d1117bb;
+    padding: 40px;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    padding: 0 20px;
+}
+footer .content {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+@media (max-width: 600px) {
+    footer p{
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+
