@@ -12,8 +12,8 @@ body {
 html, body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
-
 p, ul, ol {
     font-size: 20px;
     line-height: 30px;
@@ -114,5 +114,14 @@ footer .content {
 @media (max-width: 600px) {
     footer p{
         font-size: 16px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        font-size: 14px;
     }
 }
