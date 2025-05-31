@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: #d4c3dd;
+    background-color: #a7a7a7a6;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -15,7 +15,7 @@ html, body {
     overflow-x: hidden;
 }
 p, ul, ol {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 30px;
 }
 
@@ -25,13 +25,13 @@ ul, ol{
 }
 
 a {
-    color: #730b92;
+    color: #69010f;
 }
 a:hover {
-    color:  #ca2cfb;
+    color:  #c53347;
 }
 a:active {
-    color:  #ab26d3;
+    color:  #c53347;
 }
 
 p.caption {
@@ -58,6 +58,14 @@ header {
      justify-content: center;  */
   }  
    
+  .hero2 {
+    background-image: url('../img/silco-bg.jpg'); 
+   background-size: cover;
+   background-position: center;
+   height: 450px;
+    color: white;
+  }
+
 header .pfp {
     width: 300px;
     height: 300px;
@@ -69,6 +77,13 @@ header .pfp {
     background-size: cover;
     margin: 0% auto;
     
+}
+header .pfp.silco {
+    border: 20px solid #69010f;
+    border-radius: 50%;
+    background-image: url('./../img/silco-pfp.jpg');
+    background-position: 0 0;
+    background-size: cover;
 }
 
 h1 {
@@ -98,7 +113,7 @@ main img {
 }
 
 footer {
-    background-color: #421655;
+    background-color: #2d1117bb;
     padding: 40px;
     font-style: oblique;
     color: white;
@@ -126,3 +141,5 @@ footer .content {
         font-size: 14px;
     }
 }
+
+
