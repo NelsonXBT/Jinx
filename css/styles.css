@@ -30,6 +30,9 @@ a {
 a:hover {
     color:  #ca2cfb;
 }
+a:active {
+    color:  #ab26d3;
+}
 
 p.caption {
     font-size: 16px;
@@ -90,4 +93,18 @@ main {
 }
 main img {
     max-width: 100%;
+}
+
+footer {
+    background-color: #421655;
+    padding: 40px;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+footer .content {
+    width: 800px;
+    margin: 0 auto;
+    
 }
